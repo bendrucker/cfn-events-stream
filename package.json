@@ -1,0 +1,39 @@
+{
+  "name": "cfn-events-stream",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Readable stream of CloudFormation stack events",
+  "license": "MIT",
+  "repository": "bendrucker/cfn-events-stream",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "aws",
+    "cloudformation",
+    "cfn",
+    "stack",
+    "events",
+    "stream"
+  ],
+  "devDependencies": {
+    "concat-stream": "~1.6.0",
+    "proxyquire": "~1.7.11",
+    "standard": "^7.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "*.js"
+  ],
+  "dependencies": {
+    "aws-sdk": "~2.31.0",
+    "meow": "~3.7.0",
+    "ndjson": "~1.5.0",
+    "pole": "~1.2.0"
+  }
+}
