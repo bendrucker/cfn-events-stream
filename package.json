@@ -1,6 +1,9 @@
 {
   "name": "cfn-events-stream",
   "main": "index.js",
+  "bin": {
+    "cfn-stack-events": "./cli.js"
+  },
   "version": "1.0.0",
   "description": "Readable stream of CloudFormation stack events",
   "license": "MIT",
