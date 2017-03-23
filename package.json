@@ -4,7 +4,7 @@
   "bin": {
     "cfn-stack-events": "./cli.js"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Readable stream of CloudFormation stack events",
   "license": "MIT",
   "repository": "bendrucker/cfn-events-stream",
