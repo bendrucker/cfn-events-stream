@@ -1,4 +1,4 @@
-# cfn-events-stream [![Build Status](https://travis-ci.org/bendrucker/cfn-events-stream.svg?branch=master)](https://travis-ci.org/bendrucker/cfn-events-stream)
+# cfn-events-stream [![Build Status](https://travis-ci.org/bendrucker/cfn-events-stream.svg?branch=master)](https://travis-ci.org/bendrucker/cfn-events-stream) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/cfn-events-stream.svg)](https://greenkeeper.io/)
 
 > Readable stream of CloudFormation stack events
 
